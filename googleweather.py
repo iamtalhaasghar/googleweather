@@ -1,5 +1,5 @@
 # Python Script to scrap weather info from Google
-
+ 
 import requests
 from bs4 import BeautifulSoup
 import sys
