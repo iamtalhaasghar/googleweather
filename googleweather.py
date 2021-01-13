@@ -1,4 +1,4 @@
-# Python Script to scrap weather info from Google
+# Python CLI tool to Scrap weather info from Google
  
 import requests
 from bs4 import BeautifulSoup
