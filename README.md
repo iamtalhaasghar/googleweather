@@ -1,2 +1,2 @@
 # googleweather
-Python CLI tool to scrap weather info from Google using http requests and custom user-agent
+A simple Python CLI tool using which you can see current weather of any city (in the world) in your Terminal.
