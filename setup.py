@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="googleweather",
-    version="0.0.2",
+    version="0.0.3",
     author="Talha Asghar",
     author_email="talhaasghar.contact@simplelogin.fr",
     description="A simple Python CLI tool using which you can see current weather of any city (in the world) in your Terminal.",
