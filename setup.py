@@ -8,7 +8,7 @@ setuptools.setup(
     version="0.0.2",
     author="Talha Asghar",
     author_email="talhaasghar.contact@simplelogin.fr",
-    description="Python CLI tool to scrap weather info from Google using http requests and custom user-agent",
+    description="A simple Python CLI tool using which you can see current weather of any city (in the world) in your Terminal.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/iamtalhaasghar/googleweather",
@@ -19,7 +19,7 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
-    install_requires=["bs4", "requests"],
-    scripts=["googleweather.py"]
+    install_requires=[i for i in open('requirements.txt').readlines() if len(i) != 0],
+    entry_points={'console_scripts': ['googleweather = googleweather:googleweather.main']}
 	
 )
