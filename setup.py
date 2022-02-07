@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="googleweather",
-    version="0.0.3",
+    version="0.0.4",
     author="Talha Asghar",
     author_email="talhaasghar.contact@simplelogin.fr",
     description="A simple Python CLI tool using which you can see current weather of any city (in the world) in your Terminal.",
@@ -20,6 +20,6 @@ setuptools.setup(
     ],
     python_requires='>=3.6',
     install_requires=[i for i in open('requirements.txt').readlines() if len(i) != 0],
-    entry_points={'console_scripts': ['googleweather = googleweather:googleweather.main']}
+    entry_points={'console_scripts': ['gw = googleweather:googleweather.main']}
 	
 )
