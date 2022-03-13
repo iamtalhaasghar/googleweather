@@ -3,9 +3,10 @@ import setuptools
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
+__version__ = "0.0.4"
 setuptools.setup(
     name="googleweather",
-    version="0.0.4",
+    version=__version__,
     author="Talha Asghar",
     author_email="talhaasghar.contact@simplelogin.fr",
     description="A simple Python CLI tool using which you can see current weather of any city (in the world) in your Terminal.",
